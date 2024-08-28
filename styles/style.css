@@ -1,0 +1,101 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+  font-family: "Archivo", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navs ul {
+  display: flex;
+}
+.navs li {
+  list-style: none;
+  margin: 10px 20px;
+}
+.navs a {
+  text-decoration: none;
+}
+.login-btn {
+  border-radius: 20px;
+  padding: 0px;
+}
+.banner-image {
+  position: relative;
+  width: 705px;
+  height: 578px;
+  gap: 0px;
+  border-radius: 30px 30px 30px 30px;
+  margin-right: 20px;
+}
+.banner-btn {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: white;
+}
+.banner-text {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 54px;
+}
+.banner-btn-2 {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: black;
+}
+.card-1 {
+  background-color: aqua;
+  width: 251px;
+  height: 251px;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 20px;
+}
+.card-2 {
+  background-color: aqua;
+  width: 251px;
+  height: 251px;
+  border-radius: 20px 20px 20px 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card1Img {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.card1Text {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+.card2Img {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+.card2Text {
+  position: relative;
+  top: 150px;
+  left: 20px;
+}
